@@ -11,24 +11,25 @@ void swap(int *x, int *y)
 
 void bubble_sort(int arr[], int n)
 {
-    int i;
-    int tmp;
-    for (i = 0; i < n; i++) {
-        bool flag_swap = false;
-        for (int j = n -1; j > i; j--) {
-            if (arr[j] < arr[j-1]) {
+    for (int i = 0; i < n - 1; i++) {
+        bool flag = false;
+        for (int j = n - 1; j > i; j--) 
+            if (arr[j - 1] > arr[j]) {
                 swap(&arr[j], &arr[j-1]);
-                flag_swap = true;
+                flag = true;
             }
-        if (flag_swap == false) break;
-        }
+        if (flag == false) break;
     }
 }
 
-void print(int arr[], int n)
+int is_sorted(const int arr[], int n)
 {
-    for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
+    bool flag = false;
+    for (int i = n - 1; i > 0; i--)
+        if (arr[i - 1] > arr[i])
+            flag = true;
+    
+    return flag ? 0 : 1;
 }
 
 int main()
@@ -46,8 +47,13 @@ int main()
         scanf("%d", &x[i]);
     }
 
+    printf("isSorted? : %d\n", is_sorted(x, nx));
+
     bubble_sort(x, nx);
 
+    printf("isSorted? : %d\n", is_sorted(x, nx));
+
+    printf("오름차순으로 정렬했습니다.\n");
     for(i = 0; i < nx; i++)
         printf("x[%d] = %d\n", i, x[i]);
 

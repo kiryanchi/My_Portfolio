@@ -9,7 +9,7 @@ num_of_talk = 0
 percentage = 0.0
 file_name = ''
 
-print("파일 이름을 입력해주세요.", end=' ')
+print("파일 이름을 입력해주세요.", end='')
 file_name = input()
 
 while True:
