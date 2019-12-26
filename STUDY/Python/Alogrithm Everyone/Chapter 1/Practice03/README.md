@@ -1,3 +1,9 @@
+# 모두의 알고리즘 with 파이썬
+
+> ### [모두의 알고리즘 with 파이썬 (길벗출판사)](https://www.gilbut.co.kr/book/view?bookcode=BN001731&keyword=%EB%AA%A8%EB%91%90%EC%9D%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20WITH%20%ED%8C%8C%EC%9D%B4%EC%8D%AC&collection=GB_BOOK) 를 공부하며 짜본 코드입니다.
+> 모든 [예시 코드](https://www.gilbut.co.kr/book/view?bookcode=BN001731&keyword=%EB%AA%A8%EB%91%90%EC%9D%98%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20WITH%20%ED%8C%8C%EC%9D%B4%EC%8D%AC&collection=GB_BOOK#bookData) 는 길벗출판사 홈페이지에 있습니다.  
+> 모든 저작권은 [길벗출판사](https://www.gilbut.co.kr/) 에 있습니다.  
+<br>
 ## 동명이인 찾기 1
 ### *n명의 사람 이름 중에서 같은 이름을 찾아 집합으로 만들어 돌려주는 알고리즘을 만들어보세요.*
 1. 집합  
