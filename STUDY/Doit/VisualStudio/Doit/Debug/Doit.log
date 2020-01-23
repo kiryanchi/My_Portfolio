@@ -1,0 +1,4 @@
+﻿insertion.c(34,8): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+insertion.c(35,10): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+insertion.c(46,8): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+  Doit.vcxproj -> D:\Git\My_Portfolio\STUDY\Doit\VisualStudio\Doit\Debug\Doit.exe
